@@ -1,0 +1,372 @@
+/* CONTAINERS
+=============================*/
+ 
+#container {
+    background-color: #3E533A;    
+    background-image:url("http://themes.wikidot.com/local--files/microgreen/bgmain.png");
+    background-repeat:repeat-x;
+}
+ 
+#content-wrap {
+    margin:0 auto;
+    width:932px;
+}
+ 
+/* LINKS
+=============================*/
+ 
+a {
+    color: #ffffcc;
+    text-decoration: none;
+}
+ 
+a:link, a:visited {
+    color: #00137F;
+}
+ 
+a.newpage {
+    color: maroon;
+    text-decoration: none;
+}
+ 
+a:hover {
+    background-color: transparent;
+    color: #486143;
+}
+ 
+#breadcrumbs:before {
+    content: "You are at:";
+    margin-right: 0.5em;
+}
+ 
+/* HEADINGS
+=============================*/
+ 
+h1, h2, h3, h4, h5, h6 {
+    color:maroon;
+}
+ 
+/* HEADER
+=============================*/
+ 
+#header {
+    -moz-border-radius-topleft:20px;
+    -moz-border-radius-topright:20px;
+    
+    /* GANTI URL DI BAWAH INI DENGAN LINK FOTO ANDA */
+    background-image: url(""); 
+    
+    background-position: center center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height:120px;
+    margin: 0 auto;
+    position:relative;
+    top:20px;
+    width:932px;
+}
+ 
+#header #login-status, #login-status a {
+    color: #E8F3FB;
+}
+ 
+#header h1 {
+    left:50px;
+    padding:0;
+    position:relative;
+    top: 10px;
+    width:750px;
+}
+ 
+#header h2 {
+    color:#E8F3FB;
+    font-size:125%;
+    left: 100px;
+    margin:0;
+    max-height:38px;
+    padding:0;
+    position:relative;
+    text-align:left;
+    top:25px;
+    width:450px;
+}
+ 
+h1 a {
+    height:175px;
+    margin-top:0px;
+    width:932px;
+}
+ 
+#header h1 a, #header h1 a:hover {
+    background-color:transparent;
+    color:#E8F3FB;
+    height:150px;
+    top:0;
+}
+ 
+/* ACCOUNT/LOGIN
+=============================*/
+ 
+#account-options  {
+    background-color:#38789C;
+}
+ 
+#account-topbutton {
+    background-color: transparent;
+    border: none;
+}
+ 
+#account-options ul {
+    background-color: #3B5323;
+}
+ 
+#account-options li a:hover {
+    color: #ffcc33;
+}
+ 
+/* SEARCH BOX
+=============================*/
+ 
+#search-top-box {
+    left:0;
+    margin-left:60px;
+    position:absolute;
+    text-align:left;
+    top:118px;
+    width:300px;
+    z-index:9;
+}
+ 
+#search-top-box input.empty {
+    background-color:#FFFFFF;
+    background-image:url("http://community.wikidot.com/local--files/files/search.gif");
+    background-position:right top;
+    background-repeat:no-repeat;
+    color:#206FA8;
+}
+ 
+/* TOP BAR 
+=============================*/
+ 
+#top-bar {
+    height:30px;
+    top:60px;
+}
+ 
+#top-bar li a {
+    color:#FFFFFF;
+}
+ 
+#top-bar a:hover {
+    background-color: #486143;
+    border: none;
+    color: #ffffff;
+    text-decoration: underline;
+}
+ 
+#top-bar li ul  {
+    border:none;
+}
+ 
+#top-bar li ul li  {
+    margin-right:16px;
+}
+ 
+#top-bar li ul li a {
+    background-color:#486143;
+    float: right;
+    width: 12em;
+}
+ 
+#top-bar li ul li a:hover {
+    background-color:#486143;
+    color: #ffffff;
+    width: 12em;
+}
+ 
+/* SIDE BAR
+=============================*/
+ 
+#side-bar {
+    background-color: #ffffff;
+    background-image: url(http://themes.wikidot.com/local--files/microgreen/bg.png);
+    background-position: left top;
+    background-repeat: repeat-x;
+    border:none;
+    float:right;
+    margin:20px 0 0;
+    position:relative;
+    right:25px;
+    width:300px;
+}
+ 
+/* PAGE TITLE
+=============================*/
+ 
+#page-title {
+    border-bottom:medium none;
+    color:maroon;
+    height:30px;
+    margin-top:30px;
+    padding-bottom:1em;
+    padding-top:2em;
+    width: 500px;
+}
+ 
+/* CONTENT 
+=============================*/
+ 
+#main-content {
+    background-color: #ffffff;
+    background-image: url(http://themes.wikidot.com/local--files/microgreen/bg.png);
+    background-position: left top;
+    background-repeat: repeat-x;
+    border-left:1px solid #468259;
+    border-right:1px solid #468259;
+    margin-bottom:0;
+    margin-left:0 !important;
+    margin-right:auto;
+    margin-top: -25px;
+    min-height:450px;
+    padding:0 0 0 10px;
+    width:920px;
+}
+ 
+#page-content {
+    min-height:400px;
+    width:530px;
+}
+ 
+/* CODE
+============================== */
+ 
+.code {
+    font-family: verdana;
+}
+ 
+/* TABLES
+============================== */
+ 
+table {
+    empty-cells:show;
+    width:80%;
+}
+ 
+table.wiki-content-table {
+    background-color: #CEE8E5;
+    border-collapse:collapse;
+    border-spacing:0;
+    color:#2D5491;
+    margin:0;
+    width: 70%;
+}
+ 
+table.wiki-content-table th {
+    background-color:#CCCCCC;
+    border:1px solid #888888;
+    color:#000000;
+    padding:0.3em 0.7em;
+    text-align:left;
+}
+ 
+table.wiki-content-table tr {
+    border:1px solid darkgray;
+}
+ 
+table.wiki-content-table td {
+    background-color: #C7E8AC;
+    border:none;
+    padding:0.3em 0.7em;
+    text-align:left;
+}
+ 
+table.page-files {
+    background-color:#CEE8E5;
+    border:1px solid #468259;
+    border-collapse:collapse;
+    border-spacing:0;
+    margin:1em auto;
+}
+ 
+.layout {
+    border-collapse:collapse;
+    color:#3B485F;
+    table-layout:fixed;
+    width:100%;
+}
+ 
+.layout tr {
+    background:#FCFFDF none repeat scroll 0 0;
+    border-bottom:1px solid #EFEFEF;
+}
+ 
+.layout td {
+    border: 1px solid darkgray;
+    padding-left:1em;
+}
+ 
+.layout .truncate {
+    overflow:hidden;
+    white-space:nowrap;
+}
+ 
+.layout .header {
+    background:#AFCCFF none repeat scroll 0 0;
+    border-bottom:1px solid #9F9F9F;
+    font-size:13px;
+    font-weight:bold;
+    height:2em;
+}
+ 
+.layout .footer {
+    background:#FCFFDF none repeat scroll 0 0;
+    border-bottom:1px solid #9F9F9F;
+    border-top:1px solid #9F9F9F;
+    font-weight:bold;
+}
+ 
+/* FOOTER
+============================== */
+ 
+#footer {
+    background-image: url(http://themes.wikidot.com/local--files/microgreen/footer.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin: 0 auto;
+    width:912px;
+}
+ 
+#footer a {
+    color: #ffffff;
+}
+ 
+.page-watch-options {
+    padding-right:10px;
+}
+ 
+.page-options-bottom a {
+    background: url("http://themes.wdfiles.com/local--files/hello/hello-button-bg.gif") repeat-x scroll 0 0 transparent;
+    border: 1px solid #D4D4D4;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #616161;
+    font-family: Arial;
+    height: auto;
+    margin: 0 5px;
+    padding: 6px 10px;
+}
+ 
+/* LICENSE AREA
+============================== */
+ 
+#license-area, #license-area a  {
+    color:#FFFFFF;
+}
+ 
+/* SITE MANAGER
+============================== */
+ 
+#site-manager {
+    margin:5.5em auto;
+}
