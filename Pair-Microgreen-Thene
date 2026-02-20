@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-border-radius-topright:20px;
     
     /* GANTI URL DI BAWAH INI DENGAN LINK FOTO ANDA */
-    background-image: url(""); 
+    background-image: url("PAIR_20260208095526.png"); 
     
     background-position: center center;
     background-size: cover; 
